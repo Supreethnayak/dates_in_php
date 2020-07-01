@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body div {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+  overflow: hidden;
+  font-family: "Righteous", cursive;
+  background: #ad5389;
+  background: -webkit-linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); 
+  background: linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  );
+}
+
+body .Iknow {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: "Righteous", cursive;
+  color: white;
+  text-decoration: none;
+}
+
+.new {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  background: #ad5389; 
+  background: -webkit-linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  );
+  background: linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); 
+}
+nav ul {
+  margin: 0px;
+}
+
+nav ul li {
+  margin: 180px;
+  display: inline;
+}
+
+nav li a {
+  padding: 4px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Righteous", cursive;
+  color: white;
+  font-size: 30px;
+}
+
+aside {
+  margin: -13px;
+}
+
+nav li a:hover {
+  color: #3c1053;
+  background-color: #ad5389;
+  border-radius: 800px;
+}
+
+.new:hover {
+  font-size: 90px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.Iknow:hover {
+  color: #3c1053;
+  background-color: #ad5389;
+  border-radius: 30px;
+}
+
+
+
